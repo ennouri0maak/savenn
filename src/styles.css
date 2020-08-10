@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face{
+  font-family: 'roboto';
+  src: url(components/LibreBaskerville-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.tof1{
+  font-family: roboto;
+  font-weight: 100;
+}
+ 
+body{
+  background-color: aqua;
+ }
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movies-content {
+  padding: 30px 50px;
+}
+
+.search-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.input-search {
+  width: 600px;
+  height: 40px;
+  padding: 10px 30px;
+  font-size: 25px;
+  border: 2px solid #000;
+  margin-bottom: 30px;
+}
+.navbar{
+  background-color: black;
+}
+
+.search-rating {
+  display: block;
+}
+
+.movies-list {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.movie-card h1 {
+  width: 210px;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-card h1 span {
+  font-size: 15px;
+  color: rgb(85, 84, 84);
+}
+
+.movie-card figure {
+  display: flex;
+  justify-content: center;
+  width: 210px;
+  height: 280px;
+  overflow: hidden;
+  margin: 5px 0;
+}
+
+.movie-btn {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.add-movie {
+  width: 210px;
+  height: 50px;
+  background: #eee;
+  border: 1px solid rgb(90, 90, 90);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-movie a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.stars-style {
+  color: #ababab;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.fill {
+  color: #ffd700;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.error-form {
+  padding: 20px 30px;
+  background: red;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+}
+.ton{
+  text-align: center;
+  
+}
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form > h1 {
+  margin-bottom: 30px;
+}
+
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+.form > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+.form > button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+.form > button:hover {
+  background-color: rgb(0, 0, 196);
+}
+
+
+
+
+
+
+
+
+
+
+.x{
+  background-color: brown;
+  color: aqua;
+  font-family:  b;
+}
+
+.copy{
+  text-decoration: underline dotted rgb(0, 255, 21);
+}
+.all4{
+  width: 5cm;
+}
+.submitbtn  {
+  width: 25cm ;
+  justify-content: left; 
+  border-radius: 5cm;
+  color: rgb(255, 0, 0);
+  size: 5cm ;
+  background-color: blue;
+
+}
+.submit{
+  justify-content: center;
+  color: aqua;
+}
+
+
+.name{
+  background-color: red;
+  font-size: 43px;
+  border-radius: 5cm;
+
+  font-family:   'Arial Narrow Bold', sans-serif;
+}
+.email{
+
+  background-color: red;
+  font-size: 43px;
+  border-radius: 5cm;
+
+  font-family:   'Arial Narrow Bold', sans-serif;
+}
+.plc1{
+  display: inline-block; 
+  justify-content: left !important;
+}
